@@ -27,6 +27,7 @@ export default function Home() {
 
                 <div className="product-grid">
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Electric Lint Remover for Clothes</h3>
                         <p className="product-price">₹499</p>
 
@@ -49,12 +50,13 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
 
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Nano Magic Eraser (Pack of 10)</h3>
                         <p className="product-price">₹199</p>
 
@@ -77,12 +79,13 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
 
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Microwave Maggi Bowl with Lid</h3>
                         <p className="product-price">₹299</p>
 
@@ -105,12 +108,13 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
 
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Pocket Refreshing Face Wipes (Pack of 3)</h3>
                         <p className="product-price">₹149</p>
 
@@ -133,12 +137,13 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
 
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Giant Elephant Support Plush Toy</h3>
                         <p className="product-price">₹899</p>
 
@@ -161,12 +166,13 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
 
                     <div className="product-card">
+                        <div className="product-image-placeholder">Image Here (1000x1500px)</div>
                         <h3>Soft Mouse Toys for Cats (Pack of 5)</h3>
                         <p className="product-price">₹199</p>
 
@@ -189,7 +195,7 @@ export default function Home() {
                                 rel="noopener"
                                 className="youtube-btn"
                             >
-                                Watch on YouTube (Link in Desc)
+                                ▶ WATCH VIDEO & GET LINKS
                             </a>
                         </div>
                     </div>
