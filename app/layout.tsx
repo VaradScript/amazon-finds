@@ -10,6 +10,9 @@ export const metadata: Metadata = {
         description: 'Practical Amazon products for Indian homes under ₹999',
         type: 'website',
         images: ['/og-image.png']
+    },
+    other: {
+        "p:domain_verify": "21a57ba385ce4c75f409f12ab25becdc"
     }
 }
 
