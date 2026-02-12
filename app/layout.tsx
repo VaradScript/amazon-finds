@@ -26,9 +26,7 @@ export default function RootLayout({
                         <nav>
                             <Link href="/" className="logo">Amazon Finds India</Link>
                             <div className="nav-links">
-                                <Link href="/under-499">Under ₹499</Link>
-                                <Link href="/cleaning-tools">Cleaning & Home</Link>
-                                <Link href="/about">About</Link>
+                                <Link href="/disclosure">Disclosure</Link>
                             </div>
                         </nav>
                     </div>
