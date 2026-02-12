@@ -29,7 +29,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Electric Lint Remover for Clothes</h3>
-                        <p className="product-price">₹499</p>
+                        <p className="product-price">Under ₹500 (₹499)</p>
 
                         <p><strong>The problem:</strong> Sweaters and blankets look old and "fuzz-covered" after few washes.</p>
 
@@ -58,7 +58,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Nano Magic Eraser (Pack of 10)</h3>
-                        <p className="product-price">₹199</p>
+                        <p className="product-price">Under ₹200 (₹199)</p>
 
                         <p><strong>The problem:</strong> Scuffs on walls and white shoes that don't come off with soap.</p>
 
@@ -87,7 +87,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Microwave Maggi Bowl with Lid</h3>
-                        <p className="product-price">₹299</p>
+                        <p className="product-price">Under ₹300 (₹299)</p>
 
                         <p><strong>The problem:</strong> Cooking Maggi on a stove takes time and creates extra pans to wash.</p>
 
@@ -116,7 +116,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Pocket Refreshing Face Wipes (Pack of 3)</h3>
-                        <p className="product-price">₹149</p>
+                        <p className="product-price">Under ₹150 (₹149)</p>
 
                         <p><strong>The problem:</strong> Feeling oily and dusty while traveling or outdoors.</p>
 
@@ -145,7 +145,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Giant Elephant Support Plush Toy</h3>
-                        <p className="product-price">₹899</p>
+                        <p className="product-price">Under ₹900 (₹899)</p>
 
                         <p><strong>The problem:</strong> Standard toys are too small for comfortable baby support.</p>
 
@@ -174,7 +174,7 @@ export default function Home() {
                     <div className="product-card">
 
                         <h3>Soft Mouse Toys for Cats (Pack of 5)</h3>
-                        <p className="product-price">₹199</p>
+                        <p className="product-price">Under ₹200 (₹199)</p>
 
                         <p><strong>The problem:</strong> Indoor pets getting bored and restless.</p>
 
