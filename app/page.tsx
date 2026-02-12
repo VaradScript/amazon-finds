@@ -2,11 +2,11 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-    title: 'Amazon Finds India - Smart Daily Products Under ₹999',
-    description: 'Honest reviews of practical Amazon products that solve everyday problems. Cleaning tools, kitchen helpers, and home essentials.',
+    title: 'Amazon Finds India - Viral Products',
+    description: 'Honest reviews of viral Amazon products. Watch the tests and see for yourself.',
     openGraph: {
-        title: 'Amazon Finds India - Smart Daily Products',
-        description: 'Practical Amazon products for Indian homes',
+        title: 'Amazon Finds India - Viral Products',
+        description: 'Viral Amazon products tested',
         images: ['/og-home.png']
     }
 }
@@ -15,112 +15,184 @@ export default function Home() {
     return (
         <main>
             <div className="container">
-                <h1>Smart Amazon Products That Actually Help</h1>
+                <h1>Amazon Finds India</h1>
                 <p>
-                    No fluff. No hype. Just honest picks of products I've researched for everyday Indian homes.
-                    Everything here is under ₹999 and solves a real problem.
+                    Viral products tested. Here are the links.
                 </p>
 
                 <div className="disclosure">
-                    <strong>Quick note:</strong> I earn a small commission if you buy through my links.
-                    It doesn't cost you extra, and it helps me keep this site running.
+                    <strong>Note:</strong> I earn a small commission if you buy through my links.
                     <Link href="/disclosure"> Read full disclosure</Link>
                 </div>
 
-                <h2>Featured Finds</h2>
-
                 <div className="product-grid">
                     <div className="product-card">
-                        <h3>Microfiber Cleaning Cloth Set (Pack of 6)</h3>
-                        <p className="product-price">₹299</p>
+                        <h3>Electric Lint Remover for Clothes</h3>
+                        <p className="product-price">₹499</p>
 
-                        <p><strong>The problem:</strong> Regular cloths leave streaks on glass and mirrors.</p>
-
-                        <p><strong>Why this works:</strong></p>
-                        <ul className="product-features">
-                            <li>Lint-free cleaning for windows and screens</li>
-                            <li>Reusable - just wash and use again</li>
-                            <li>Works without chemicals</li>
-                            <li>Lasts 6+ months with regular use</li>
-                        </ul>
-
-                        <p><strong>Best for:</strong> Kitchen counters, bathroom mirrors, laptop screens</p>
-
-                        <a
-                            href="https://amzn.to/YOUR-AFFILIATE-LINK"
-                            className="amazon-btn"
-                            target="_blank"
-                            rel="nofollow sponsored noopener"
-                        >
-                            Check price on Amazon
-                        </a>
-                    </div>
-
-                    <div className="product-card">
-                        <h3>Silicone Dish Drying Mat</h3>
-                        <p className="product-price">₹399</p>
-
-                        <p><strong>The problem:</strong> Wet dishes on the counter create mess and water stains.</p>
+                        <p><strong>The problem:</strong> Sweaters and blankets look old and "fuzz-covered" after few washes.</p>
 
                         <p><strong>Why this works:</strong></p>
                         <ul className="product-features">
-                            <li>Raised ridges let water drain properly</li>
-                            <li>Easy to clean - just rinse and wipe</li>
-                            <li>Doesn't smell like cloth mats</li>
-                            <li>Folds flat for storage</li>
+                            <li>Safely shaves off lint and bubbles</li>
+                            <li>Powerful motor for fast results</li>
+                            <li>Works on wool, cotton, and upholstery</li>
+                            <li>Makes old clothes look brand new</li>
                         </ul>
 
-                        <p><strong>Best for:</strong> Small kitchens, rental homes, daily dish drying</p>
+                        <p><strong>Best for:</strong> Winter wear, blankets, cotton t-shirts</p>
 
-                        <a
-                            href="https://amzn.to/YOUR-AFFILIATE-LINK"
-                            className="amazon-btn"
-                            target="_blank"
-                            rel="nofollow sponsored noopener"
-                        >
-                            Check price on Amazon
-                        </a>
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/pAUfKtopKPU"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
                     </div>
 
                     <div className="product-card">
-                        <h3>Drain Hair Catcher (Pack of 3)</h3>
+                        <h3>Nano Magic Eraser (Pack of 10)</h3>
                         <p className="product-price">₹199</p>
 
-                        <p><strong>The problem:</strong> Hair clogs bathroom drains every few weeks.</p>
+                        <p><strong>The problem:</strong> Scuffs on walls and white shoes that don't come off with soap.</p>
 
                         <p><strong>Why this works:</strong></p>
                         <ul className="product-features">
-                            <li>Catches hair before it goes down the drain</li>
-                            <li>Easy to remove and clean</li>
-                            <li>Fits most Indian bathroom drains</li>
-                            <li>Saves plumber visits</li>
+                            <li>Cleans with just water - no chemicals</li>
+                            <li>Removes tough stains from any surface</li>
+                            <li>Great for shoes, walls, and kitchens</li>
+                            <li>Cuts through grease and grime instantly</li>
                         </ul>
 
-                        <p><strong>Best for:</strong> Bathrooms with long hair users, preventing clogs</p>
+                        <p><strong>Best for:</strong> White sneakers, wall scuffs, oily stovetops</p>
 
-                        <a
-                            href="https://amzn.to/YOUR-AFFILIATE-LINK"
-                            className="amazon-btn"
-                            target="_blank"
-                            rel="nofollow sponsored noopener"
-                        >
-                            Check price on Amazon
-                        </a>
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/HqT5pi_B-eo"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
                     </div>
-                </div>
 
-                <h2>Browse by Category</h2>
-                <div style={{ marginTop: '24px' }}>
-                    <p>
-                        <Link href="/under-499" style={{ color: '#E88B00', fontWeight: 500 }}>
-                            → All Products Under ₹499
-                        </Link>
-                    </p>
-                    <p>
-                        <Link href="/cleaning-tools" style={{ color: '#E88B00', fontWeight: 500 }}>
-                            → Cleaning & Home Tools
-                        </Link>
-                    </p>
+                    <div className="product-card">
+                        <h3>Microwave Maggi Bowl with Lid</h3>
+                        <p className="product-price">₹299</p>
+
+                        <p><strong>The problem:</strong> Cooking Maggi on a stove takes time and creates extra pans to wash.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Cooks perfect Maggi in just 2 minutes</li>
+                            <li>Heat-resistant food grade material</li>
+                            <li>Zero mess - cook and eat in the same bowl</li>
+                            <li>Great for office, dorms, or quick snacks</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Students, office lunch, late-night cravings</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/ZOi0UJpLA0s"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="product-card">
+                        <h3>Pocket Refreshing Face Wipes (Pack of 3)</h3>
+                        <p className="product-price">₹149</p>
+
+                        <p><strong>The problem:</strong> Feeling oily and dusty while traveling or outdoors.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Removes dirt and oil in seconds</li>
+                            <li>Cleans light makeup effortlessly</li>
+                            <li>Refreshing scent - feels like a quick wash</li>
+                            <li>Small enough to fit in any pocket</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Commuting, travel, post-gym refreshing</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/usXeut_x2GE"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="product-card">
+                        <h3>Giant Elephant Support Plush Toy</h3>
+                        <p className="product-price">₹899</p>
+
+                        <p><strong>The problem:</strong> Standard toys are too small for comfortable baby support.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Ultra-soft, premium cotton filling</li>
+                            <li>Provides gentle support for babies</li>
+                            <li>Large size – perfect for "hugging" or naps</li>
+                            <li>High quality, safe and non-toxic</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Baby gifts, nursery decor, nap time</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/6Oh1uKNEFrY"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="product-card">
+                        <h3>Soft Mouse Toys for Cats (Pack of 5)</h3>
+                        <p className="product-price">₹199</p>
+
+                        <p><strong>The problem:</strong> Indoor pets getting bored and restless.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Soft texture – easy for pets to carry</li>
+                            <li>Encourages natural chasing instincts</li>
+                            <li>High-quality materials – durable play</li>
+                            <li>Keep your pet active and happy</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Cats, indoor pets, active play</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/AXCmnMsnzEI"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                Watch on YouTube (Link in Desc)
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
