@@ -25,6 +25,12 @@ export default function Home() {
                     <Link href="/disclosure"> Read full disclosure</Link>
                 </div>
 
+                <div style={{ textAlign: 'center', marginBottom: '30px' }}>
+                    <Link href="/pinterest" className="youtube-btn" style={{ backgroundColor: '#E60023', display: 'inline-block', width: 'auto', padding: '12px 24px' }}>
+                        See Our Pinterest Favorites &gt;
+                    </Link>
+                </div>
+
                 <div className="product-grid">
                     <div className="product-card">
 
