@@ -177,6 +177,7 @@ export default function Home() {
                         </div>
                     </div>
 
+                    {/* Pin 6: Soft Mouse Toys for Cats */}
                     <div className="product-card">
 
                         <h3>Soft Mouse Toys for Cats (Pack of 5)</h3>
@@ -197,6 +198,35 @@ export default function Home() {
                         <div style={{ marginTop: '16px' }}>
                             <a
                                 href="https://youtube.com/shorts/AXCmnMsnzEI"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                ▶ WATCH VIDEO & GET LINKS
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* New Addition: SKYCELL Lazy Neck Phone Holder */}
+                    <div className="product-card">
+                        <h3>SKYCELL Lazy Neck Phone Holder</h3>
+                        <p className="product-price">Under ₹500</p>
+
+                        <p><strong>The problem:</strong> Holding your phone for long movies or video calls is tiring and causes neck pain.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Hands-free use - hangs comfortably around your neck</li>
+                            <li>Flexible and 360° rotating - get the perfect angle</li>
+                            <li>Multi-purpose - works as a neck stand or a tabletop holder</li>
+                            <li>Universal fit - works with almost all smartphones</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Watching movies in bed, long video calls, and reading recipes</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/t51kCoaWfAo?feature=share"
                                 target="_blank"
                                 rel="noopener"
                                 className="youtube-btn"
