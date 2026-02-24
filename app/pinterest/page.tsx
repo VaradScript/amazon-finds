@@ -130,6 +130,35 @@ export default function PinterestSection() {
                             </a>
                         </div>
                     </div>
+
+                    {/* Pin 4: Shoe Washing Machine Bag */}
+                    <div className="product-card">
+                        <h3>Shoe Washing Machine Bag</h3>
+                        <p className="product-price">Under ₹500 (₹360)</p>
+
+                        <p><strong>The problem:</strong> Shoes banging loudly in the washing machine, getting damaged, or losing their shape.</p>
+
+                        <p><strong>Why this works:</strong></p>
+                        <ul className="product-features">
+                            <li>Protects shoes from wear, tear, and scratches</li>
+                            <li>Durable plush material with a secure zipper</li>
+                            <li>Prevents loud noise during wash and dry cycles</li>
+                            <li>Multi-purpose - great for sneakers, delicates & toys</li>
+                        </ul>
+
+                        <p><strong>Best for:</strong> Cleaning sneakers and sports shoes safely at home</p>
+
+                        <div style={{ marginTop: '16px' }}>
+                            <a
+                                href="https://youtube.com/shorts/Tm73jrUU8TE?feature=share"
+                                target="_blank"
+                                rel="noopener"
+                                className="youtube-btn"
+                            >
+                                ▶ WATCH VIDEO & GET LINKS
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

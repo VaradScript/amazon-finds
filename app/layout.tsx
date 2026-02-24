@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
+    metadataBase: new URL('https://amazon-finds-india.vercel.app'),
     title: 'Amazon Finds India - Smart Daily Products Under ₹999',
     description: 'Honest reviews of practical Amazon products for Indian homes. Cleaning tools, kitchen helpers, and daily essentials that actually work.',
     openGraph: {
